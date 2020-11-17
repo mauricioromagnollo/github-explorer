@@ -10,6 +10,7 @@ export default createGlobalStyle`
     --medium-color: #a8a8b3;
     --dark-color: #3d3d4d;
     --darker-color: #3a3a3a;
+    --error-color: #c53030;
 
     --button-form-color: #04D361;
     --button-form-color-hover: #04BA56;

@@ -26,6 +26,12 @@ A simple project with a beautiful interface, to view the GitHub repositories in 
 - [eslint](https://eslint.org/) - ESLint statically analyzes your code to quickly find problems.
 - [commitlint](https://github.com/conventional-changelog/commitlint) - Lint for commit messages.
 - [editorconfig](https://editorconfig.org/) - A file format and collection of text editor plugins for maintaining consistent coding styles between different editors and IDEs.
+- [figma](https://www.figma.com/) - A vector graphics editor and prototyping tool.
+
+#
+## **🎨 PROTOTYPE**
+
+[Click here](https://www.figma.com/file/NYEF2UTeAgpaLNqrQAqPCN/Github-Explorer-(Copy)?node-id=0%3A1) to se the interface prototype in Figma.
 
 #
 ## **✔️ RELEASES**
@@ -43,8 +49,6 @@ This repository is licensed by [MIT License](./LICENSE).
 
 
 </div>
-
-<!-- https://www.figma.com/file/NYEF2UTeAgpaLNqrQAqPCN/Github-Explorer-Copy?node-id=0%3A1 -->
 
 <!-- Badges -->
 

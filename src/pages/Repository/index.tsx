@@ -3,7 +3,7 @@ import { useRouteMatch, Link } from 'react-router-dom';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { api } from '../../services/api';
 
-import { Header, RepositoryInfo, Issues } from './styles';
+import { Header, RepositoryInfo, Issues, Label } from './styles';
 
 import logoImg from '../../assets/logo.svg';
 
@@ -30,6 +30,12 @@ interface Issue {
   user: {
     login: string;
   };
+  labels: [
+    {
+      name: string;
+      color: string;
+    },
+  ];
 }
 
 export const Repository: React.FC = () => {
@@ -96,7 +102,11 @@ export const Repository: React.FC = () => {
               <strong>{issue.title}</strong>
               <p>{issue.user.login}</p>
             </div>
-
+            {issue.labels.map(label => (
+              <Label color={label.color}>
+                <span>{label.name}</span>
+              </Label>
+            ))}
             <FiChevronRight size={20} />
           </a>
         ))}

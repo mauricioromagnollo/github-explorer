@@ -120,3 +120,26 @@ export const Issues = styled.div`
     }
   }
 `;
+
+interface LabelProps {
+  color: string;
+}
+
+export const Label = styled.div<LabelProps>`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 120px;
+  height: 55px;
+  border: 1px solid var(--medium-color);
+  box-shadow: 1px 2px 5px #0008;
+  border-radius: 5px;
+  background-color: ${props => `#${props.color}`};
+
+  span {
+    color: var(--darker-color);
+    font-weight: bold;
+    font-size: 0.8em;
+    max-width: 100px;
+  }
+`;

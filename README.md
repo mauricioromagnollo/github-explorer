@@ -27,6 +27,7 @@ A simple project with a beautiful interface, to view the GitHub repositories in 
 - [commitlint](https://github.com/conventional-changelog/commitlint) - Lint for commit messages.
 - [editorconfig](https://editorconfig.org/) - A file format and collection of text editor plugins for maintaining consistent coding styles between different editors and IDEs.
 - [figma](https://www.figma.com/) - A vector graphics editor and prototyping tool.
+- [github-api](https://api.github.com/) - API address used to fetch the GitHub information.
 
 #
 ## **🎨 PROTOTYPE**

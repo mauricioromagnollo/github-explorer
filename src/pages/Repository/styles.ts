@@ -96,6 +96,7 @@ export const Issues = styled.div`
 
     &:hover {
       transform: translateX(10px);
+      box-shadow: 2px 4px 8px #0007;
     }
 
     div {

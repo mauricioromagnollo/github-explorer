@@ -20,7 +20,7 @@ A simple project with a beautiful interface, to view the GitHub repositories in 
 
 - [react](https://reactjs.org/) - A JavaScript library for building user interfaces.
 - [typescript](https://www.typescriptlang.org/) - TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
-- [styled-components](https://styled-components.com/) - A library for React and React Native that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS using a technique called CSS-in-JS..
+- [styled-components](https://styled-components.com/) - A library for React and React Native that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS using a technique called CSS-in-JS.
 - [axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js.
 - [prettier](https://prettier.io/) - An opinionated code formatter.
 - [eslint](https://eslint.org/) - ESLint statically analyzes your code to quickly find problems.
@@ -28,6 +28,7 @@ A simple project with a beautiful interface, to view the GitHub repositories in 
 - [editorconfig](https://editorconfig.org/) - A file format and collection of text editor plugins for maintaining consistent coding styles between different editors and IDEs.
 - [figma](https://www.figma.com/) - A vector graphics editor and prototyping tool.
 - [github-api](https://api.github.com/) - API address used to fetch the GitHub information.
+- [gh-pages](https://create-react-app.dev/docs/deployment/#github-pages) - Deployment using GitHub Pages.
 
 #
 ## **🎨 PROTOTYPE**

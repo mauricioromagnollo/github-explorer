@@ -39,6 +39,7 @@ interface Issue {
 }
 
 export const Repository: React.FC = () => {
+  // eslint-disable-next-line
   const [repository, setRepository] = useState<Repository | null>(null);
   const [issues, setIssues] = useState<Issue[]>([]);
 

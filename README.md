@@ -46,6 +46,11 @@ A simple project with a beautiful interface, to view the GitHub repositories in 
 - See the number of stars, forks and opened issues in the selected repository;
 - Click on the issue card to be redirected to it within the official repository.
 
+### v1.1
+
+- See the labels of each issue;
+- See the project published at: https://x0n4d0.github.io/github-explorer/#/.
+
 #
 ## **📰 LICENSE**
 

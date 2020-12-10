@@ -21,7 +21,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: yarn build
+    - run: npm ci
+    - run: npm run build
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@3.7.1
